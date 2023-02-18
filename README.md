@@ -36,3 +36,18 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+
+ENV Variable 
+
+NEXT_PUBLIC_RPC_URL = "https://goerli.infura.io/v3/............................."
+NEXT_PUBLIC_PRIVATE_KEY1 = ................................................................ // wallet account private key
+NEXT_PUBLIC_PRIVATE_KEY2 = ................................................................ //
+NEXT_PUBLIC_PRIVATE_KEY3 = ................................................................ //
+
+NEXT_PUBLIC_ADDRESS = 0x...........................  // run deploy js and add the address where smart contract deployed
+
+NEXT_PUBLIC_IPFS_ID = ............................... // IPFS ID
+NEXT_PUBLIC_IPFS_KEY = ................................ // IPFS key
+
+LINK = https://................infura-ipfs.io/ipfs/ // IPFS LINK  should be change in code index.js dashboard.js etc. & must add /ipfs after link
+
